@@ -1,0 +1,68 @@
+{
+  "students": [
+    {
+      "text": "Students can protect the environment by reducing plastic, planting trees, and spreading awareness in schools and communities.",
+      "img": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=80",
+      "video": "https://www.youtube.com/embed/Zy4KZ3q3ZcE"
+    },
+    {
+      "text": "Clean water and soil are essential. Students should organize local cleanup drives and avoid littering in nearby rivers and parks.",
+      "img": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=800&q=80",
+      "video": "https://www.youtube.com/embed/qx0Z_2DqMaw"
+    },
+    {
+      "text": "Switch off unused electronics, use renewable energy where possible, and educate family and friends on eco-friendly habits.",
+      "img": "https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=800&q=80",
+      "video": "https://www.youtube.com/embed/Rzxr9FeZf1g"
+    },
+    {
+      "text": "Participate in tree planting events. Every tree helps reduce carbon dioxide, provides oxygen, and supports wildlife.",
+      "img": "https://images.unsplash.com/photo-1593642532973-d31b6557fa68?auto=format&fit=crop&w=800&q=80",
+      "video": "https://www.youtube.com/embed/qx0Z_2DqMaw"
+    }
+  ],
+  "farmers": [
+    {
+      "text": "Farmers protect the environment using organic fertilizers, crop rotation, and natural pest control.",
+      "img": "https://images.unsplash.com/photo-1598514982586-5973f7b2d4a3?auto=format&fit=crop&w=800&q=80",
+      "video": "https://www.youtube.com/embed/pimZ0ZCsKxM"
+    },
+    {
+      "text": "Sustainable water management is key. Using rainwater harvesting, drip irrigation and avoiding chemical runoff preserves rivers.",
+      "img": "https://images.unsplash.com/photo-1579710758880-dfd92891fbb3?auto=format&fit=crop&w=800&q=80",
+      "video": "https://www.youtube.com/embed/GFj5hU1H5H4"
+    },
+    {
+      "text": "Farmers can also plant trees along fields, maintain biodiversity, and practice zero-tillage methods to improve soil health.",
+      "img": "https://images.unsplash.com/photo-1556742502-ec7c0e9f7b80?auto=format&fit=crop&w=800&q=80",
+      "video": "https://www.youtube.com/embed/IbH3lP2NjzE"
+    },
+    {
+      "text": "Composting kitchen and farm waste reduces landfills and provides natural fertilizer, closing the loop in sustainable farming.",
+      "img": "https://images.unsplash.com/photo-1603791440384-56cd371ee9a7?auto=format&fit=crop&w=800&q=80",
+      "video": "https://www.youtube.com/embed/uqWGTg7cU4U"
+    }
+  ],
+  "others": [
+    {
+      "text": "Volunteers, teachers, and environmentalists guide communities in reducing pollution and planting trees.",
+      "img": "https://images.unsplash.com/photo-1523978591478-c753949ff840?auto=format&fit=crop&w=800&q=80",
+      "video": "https://www.youtube.com/embed/1l7w2uFmhB4"
+    },
+    {
+      "text": "Community workshops, awareness campaigns, and clean-up drives make environmental protection a collective effort.",
+      "img": "https://images.unsplash.com/photo-1473445361085-b9a07f55608b?auto=format&fit=crop&w=800&q=80",
+      "video": "https://www.youtube.com/embed/2F1BvltG35I"
+    },
+    {
+      "text": "Everyone can contribute by using eco-friendly products, reducing energy use, and supporting sustainable businesses.",
+      "img": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80",
+      "video": "https://www.youtube.com/embed/3JZ_D3ELwOQ"
+    },
+    {
+      "text": "Encourage local governments to maintain parks, plant trees, and promote green initiatives for future generations.",
+      "img": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=800&q=80",
+      "video": "https://www.youtube.com/embed/5qap5aO4i9A"
+    }
+  ]
+}

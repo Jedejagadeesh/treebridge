@@ -1,0 +1,239 @@
+/* ======================== Global ======================== */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: "Quicksand", sans-serif;
+  background-color: #fdf7f0;
+  color: #3b2f2f;
+}
+
+.app { text-align: center; }
+
+/* ======================== Topbar ======================== */
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #5a3e2b;
+  color: white;
+  padding: 12px 30px;
+}
+
+.logo { font-size: 30px; font-weight: 700; font-family: "Merriweather", serif; }
+
+.auth-buttons .btn {
+  margin-left: 10px;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.login-btn { background-color: #f3e9dc; color: #5a3e2b; }
+.register-btn { background-color: #deb887; color: #3b2f2f; }
+.btn:hover { transform: scale(1.05); }
+
+/* ======================== Navbar ======================== */
+.navbar {
+  background: #7b5e57;
+  padding: 10px 0;
+}
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+  margin: 0;
+  padding: 0;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: 0.3s;
+}
+.navbar ul li a:hover { color: #ffebcd; }
+
+/* ======================== Hero ======================== */
+.hero {
+  background-image: url("https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=80");
+  background-size: cover;
+  background-position: center;
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+}
+.hero-content {
+  background: rgba(0,0,0,0.4);
+  padding: 50px 70px;
+  border-radius: 20px;
+  text-align: center;
+}
+.hero h2 { font-size: 38px; }
+.hero p { font-size: 18px; max-width: 600px; }
+.explore-btn { background-color: #deb887; color: #3b2f2f; font-weight: 600; }
+
+/* ======================== About ======================== */
+.about-container {
+  background: linear-gradient(to bottom, #fdf7f0, #fffdf7);
+  color: #3b2f2f;
+  padding: 80px 30px;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.about-container img {
+  width: 250px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin: 10px;
+}
+
+/* ======================== Community ======================== */
+.community-container {
+  padding: 80px 20px;
+  background: linear-gradient(to bottom right, #fdf7f0, #fffdf7);
+  min-height: 100vh;
+  text-align: center;
+}
+
+.community-title { font-size: 2.8rem; font-weight: 800; margin-bottom: 10px; }
+.community-subtitle { font-size: 1.2rem; margin-bottom: 40px; font-style: italic; }
+
+.community-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 40px;
+}
+.community-tabs button {
+  padding: 10px 22px;
+  border-radius: 25px;
+  border: none;
+  background: #d8c3a5;
+  color: #3b2f2f;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.community-tabs button:hover,
+.community-tabs button.active { background: #5a3e2b; color: white; }
+
+.tab-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+.section-block {
+  width: 90%;
+  max-width: 700px;
+}
+
+.image-card {
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+.image-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.section-text {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #4a4a4a;
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+.video-block iframe {
+  width: 100%;
+  height: 180px;
+  border-radius: 12px;
+  border: none;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+}
+
+.quote {
+  width: 80%;
+  margin: 50px auto 0;
+  font-size: 1.2rem;
+  font-style: italic;
+  color: #3b2f2f;
+  background: #f3e9dc;
+  padding: 18px 25px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* ======================== Contact ======================== */
+.contact-page {
+  background: linear-gradient(to right, #cce7ff, #ffffff);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.contact-box {
+  background: #e6f0ff;
+  width: 100%;
+  max-width: 450px;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+.contact-box h2 { font-size: 2rem; color: #1a4d99; margin-bottom: 10px; }
+.contact-box p { font-size: 1rem; color: #333; margin-bottom: 25px; }
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #1a4d99;
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #3366cc;
+  box-shadow: 0 0 8px rgba(51, 102, 204, 0.3);
+}
+
+.contact-form button {
+  background: #3366cc;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.contact-form button:hover { background: #1a4d99; }
