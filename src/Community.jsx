@@ -7,43 +7,31 @@ function Community() {
   const [contentData, setContentData] = useState({ students: [], farmers: [], others: [] });
 
   useEffect(() => {
-    axios.get("/communityData.json")
-      .then((res) => setContentData(res.data))
-      .catch((err) => console.error("Error fetching data:", err));
+    axios
+      .get("/communityData.json")
+      .then(res => setContentData(res.data))
+      .catch(err => console.error("Error fetching community data:", err));
   }, []);
 
   const renderContent = () => {
     const contentArray = contentData[activeTab] || [];
-
-    return (
-      <div className="tab-content">
-        {contentArray.map((section, index) => (
-          <div key={index} className="section-block">
-            <div className="image-card">
-              <img src={section.img} alt={`${activeTab} ${index + 1}`} />
-            </div>
-            <p className="section-text">{section.text}</p>
-            <div className="video-block">
-              <iframe
-                src={section.video}
-                title={`video-${index}`}
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              ></iframe>
-            </div>
+    return contentArray.map((section, index) => (
+      <div key={index} className="tab-content">
+        {section.images.map((img, i) => (
+          <div className="image-card" key={i}>
+            <img className="card-img" src={img} alt={`${activeTab}-${index}-${i}`} />
           </div>
         ))}
-        <p className="quote">🌸 “Protecting nature is protecting ourselves — because we are part of it.” 🌸</p>
+        <p className="card-text">{section.text}</p>
       </div>
-    );
+    ));
   };
 
   return (
     <div className="community-container">
       <h1 className="community-title">🌿 Our Nature Protectors</h1>
       <p className="community-subtitle">
-        Students, Farmers, and Community members unite to preserve our forests, rivers, and soil.
+        This is our nature — don’t pollute it. Together we protect rivers, forests, and soil.
       </p>
 
       <div className="community-tabs">
@@ -53,6 +41,10 @@ function Community() {
       </div>
 
       {renderContent()}
+
+      <p className="quote">
+        🌸 “The earth does not belong to us, we belong to the earth.” 🌸
+      </p>
     </div>
   );
 }

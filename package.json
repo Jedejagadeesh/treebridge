@@ -1,17 +1,26 @@
 {
+  "homepage": "https://Jedejagadeesh.github.io/Nature",
   "name": "world_projects",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "axios": "^1.6.0",
+    "cookies": "^0.9.1",
+    "formik": "^2.4.6",
+    "js-cookie": "^3.0.5",
     "react": "^19.2.0",
+    "react-cookie": "^8.0.1",
     "react-dom": "^19.2.0",
     "react-router-dom": "^7.9.4",
-    "react-scripts": "5.0.1"
+    "react-scripts": "5.0.1",
+    "yup": "^1.7.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
