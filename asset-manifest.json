@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/treebridge/static/css/main.40b19788.css",
-    "main.js": "/treebridge/static/js/main.e062f43b.js",
+    "main.css": "/treebridge/static/css/main.a6b19646.css",
+    "main.js": "/treebridge/static/js/main.5030f361.js",
     "index.html": "/treebridge/index.html",
-    "main.40b19788.css.map": "/treebridge/static/css/main.40b19788.css.map",
-    "main.e062f43b.js.map": "/treebridge/static/js/main.e062f43b.js.map"
+    "main.a6b19646.css.map": "/treebridge/static/css/main.a6b19646.css.map",
+    "main.5030f361.js.map": "/treebridge/static/js/main.5030f361.js.map"
   },
   "entrypoints": [
-    "static/css/main.40b19788.css",
-    "static/js/main.e062f43b.js"
+    "static/css/main.a6b19646.css",
+    "static/js/main.5030f361.js"
   ]
 }
