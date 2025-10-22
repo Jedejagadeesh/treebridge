@@ -1,12 +1,11 @@
-import React, { useEffect, useState } from "react";
+// Contact.jsx
+import React from "react";
 import { useFormik } from "formik";
 import * as Yup from "yup";
 import Cookies from "js-cookie";
 import "./App.css";
 
 function Contact() {
-  const [allContacts, setAllContacts] = useState([]);
-
   const formik = useFormik({
     initialValues: {
       Name: "",
@@ -17,19 +16,23 @@ function Contact() {
     validationSchema: Yup.object({
       Name: Yup.string()
         .required("⚠️ Name is required")
-        .matches(/^[A-Z][a-zA-Z\s]*$/, "First letter must be capital"),
+        .matches(/[A-Z]{2,}/, "Name must have at least 2 uppercase letters"),
       Email: Yup.string()
         .email("⚠️ Invalid email format")
-        .required("⚠️ Email is required"),
+        .required("⚠️ Email is required")
+        .matches(/@/, "Email must include @"),
       Phone: Yup.string()
         .required("⚠️ Phone is required")
         .matches(/^\+?\d{10,15}$/, "Enter valid phone"),
       Message: Yup.string()
-        .min(5, "⚠️ Message too short")
-        .required("⚠️ Enter a message")
+        .required("⚠️ Message is required")
+        .test(
+          "min-lines",
+          "Message must be at least 5 lines",
+          value => value && value.split("\n").length >= 5
+        )
     }),
-    onSubmit: (values) => {
-      // Load previous entries
+    onSubmit: (values, { resetForm }) => {
       const saved = Cookies.get("contactData");
       let contactsArray = [];
 
@@ -38,33 +41,28 @@ function Contact() {
         contactsArray = Array.isArray(parsed) ? parsed : [parsed];
       }
 
-      // Add new entry
       contactsArray.push(values);
-
-      // Save updated array to cookie (expires in 365 days)
       Cookies.set("contactData", JSON.stringify(contactsArray), { expires: 365 });
-      setAllContacts(contactsArray); // update state
-      formik.resetForm();
-      alert("✅ Your details saved permanently!");
+      resetForm();
+      alert("✅ Thank you! We will get in touch with you soon.");
     }
   });
 
-  // Load all contacts from cookie on mount
-  useEffect(() => {
-    const saved = Cookies.get("contactData");
-    let contactsArray = [];
-
-    if (saved) {
-      const parsed = JSON.parse(saved);
-      contactsArray = Array.isArray(parsed) ? parsed : [parsed];
-    }
-
-    setAllContacts(contactsArray);
-  }, []);
+  const getValidationMessage = (field) => {
+    return formik.touched[field] && formik.errors[field]
+      ? <div className="error">{formik.errors[field]}</div>
+      : formik.touched[field] && !formik.errors[field]
+      ? <div className="success">✅</div>
+      : null;
+  }
 
   return (
     <div className="contact-page">
       <h2>📬 Contact Us</h2>
+     <h1 style={{ maxWidth: "700px", margin: "20px auto", color: "#333" }}>
+  Contact Us 🌿
+</h1>
+
       <form onSubmit={formik.handleSubmit} className="contact-form">
         <label>Name:</label>
         <input
@@ -74,7 +72,7 @@ function Contact() {
           onChange={formik.handleChange}
           onBlur={formik.handleBlur}
         />
-        {formik.touched.Name && formik.errors.Name && <div className="error">{formik.errors.Name}</div>}
+        {getValidationMessage("Name")}
 
         <label>Email:</label>
         <input
@@ -84,7 +82,7 @@ function Contact() {
           onChange={formik.handleChange}
           onBlur={formik.handleBlur}
         />
-        {formik.touched.Email && formik.errors.Email && <div className="error">{formik.errors.Email}</div>}
+        {getValidationMessage("Email")}
 
         <label>Phone:</label>
         <input
@@ -94,7 +92,7 @@ function Contact() {
           onChange={formik.handleChange}
           onBlur={formik.handleBlur}
         />
-        {formik.touched.Phone && formik.errors.Phone && <div className="error">{formik.errors.Phone}</div>}
+        {getValidationMessage("Phone")}
 
         <label>Message:</label>
         <textarea
@@ -102,24 +100,12 @@ function Contact() {
           value={formik.values.Message}
           onChange={formik.handleChange}
           onBlur={formik.handleBlur}
+          rows={6}
         />
-        {formik.touched.Message && formik.errors.Message && <div className="error">{formik.errors.Message}</div>}
+        {getValidationMessage("Message")}
 
-        <button type="submit">Submit 🌱</button>
+        <button type="submit" className="contact-btn">Submit 🌱</button>
       </form>
-
-      <div className="all-contacts">
-        <h3>All Submitted Contacts:</h3>
-        {allContacts.length === 0 && <p>No contacts yet.</p>}
-        {allContacts.map((c, i) => (
-          <div key={i} className="contact-card">
-            <p><b>Name:</b> {c.Name}</p>
-            <p><b>Email:</b> {c.Email}</p>
-            <p><b>Phone:</b> {c.Phone}</p>
-            <p><b>Message:</b> {c.Message}</p>
-          </div>
-        ))}
-      </div>
     </div>
   );
 }
