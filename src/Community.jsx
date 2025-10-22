@@ -1,3 +1,4 @@
+// Community.jsx
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import "./App.css";
@@ -34,12 +35,14 @@ function Community() {
         This is our nature — don’t pollute it. Together we protect rivers, forests, and soil.
       </p>
 
+      {/* Tabs */}
       <div className="community-tabs">
         <button onClick={() => setActiveTab("students")} className={activeTab === "students" ? "active" : ""}>Students</button>
         <button onClick={() => setActiveTab("farmers")} className={activeTab === "farmers" ? "active" : ""}>Farmers</button>
         <button onClick={() => setActiveTab("others")} className={activeTab === "others" ? "active" : ""}>Others</button>
       </div>
 
+      {/* Tab content */}
       {renderContent()}
 
       <p className="quote">
