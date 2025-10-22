@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/treebridge/static/css/main.a6b19646.css",
-    "main.js": "/treebridge/static/js/main.5030f361.js",
-    "index.html": "/treebridge/index.html",
-    "main.a6b19646.css.map": "/treebridge/static/css/main.a6b19646.css.map",
-    "main.5030f361.js.map": "/treebridge/static/js/main.5030f361.js.map"
+    "main.css": "/EcoConnect/static/css/main.a6b19646.css",
+    "main.js": "/EcoConnect/static/js/main.5030f361.js",
+    "index.html": "/EcoConnect/index.html",
+    "main.a6b19646.css.map": "/EcoConnect/static/css/main.a6b19646.css.map",
+    "main.5030f361.js.map": "/EcoConnect/static/js/main.5030f361.js.map"
   },
   "entrypoints": [
     "static/css/main.a6b19646.css",
