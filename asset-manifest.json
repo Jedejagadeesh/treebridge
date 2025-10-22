@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Nature/static/css/main.40b19788.css",
-    "main.js": "/Nature/static/js/main.1912b646.js",
-    "index.html": "/Nature/index.html",
-    "main.40b19788.css.map": "/Nature/static/css/main.40b19788.css.map",
-    "main.1912b646.js.map": "/Nature/static/js/main.1912b646.js.map"
+    "main.css": "/treebridge/static/css/main.40b19788.css",
+    "main.js": "/treebridge/static/js/main.b22d28c3.js",
+    "index.html": "/treebridge/index.html",
+    "main.40b19788.css.map": "/treebridge/static/css/main.40b19788.css.map",
+    "main.b22d28c3.js.map": "/treebridge/static/js/main.b22d28c3.js.map"
   },
   "entrypoints": [
     "static/css/main.40b19788.css",
-    "static/js/main.1912b646.js"
+    "static/js/main.b22d28c3.js"
   ]
 }
