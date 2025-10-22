@@ -2,7 +2,7 @@
 import React from "react";
 import { Routes, Route, Link } from "react-router-dom";
 import About from "./About";
-import Community from "./Community";
+import Community from "./community";
 import Contact from "./Contact";
 import Project from "./project";
 import "./App.css";
