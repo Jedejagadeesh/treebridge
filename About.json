@@ -1,0 +1,38 @@
+{
+  "aboutUs": {
+    "title": "About TreeBridge",
+    "subtitle": "Why We Must Protect Nature",
+    "sections": [
+      {
+        "heading": "🌳 Protect Our Trees",
+        "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1200&q=80",
+        "footer": "Trees are the lungs of our planet.",
+        "content": "Trees are the silent guardians of the earth. They give us oxygen, shade, food, and medicine. Without trees, the air would become toxic, and our planet would lose its balance. Deforestation has caused climate changes, soil erosion, and loss of wildlife. Every tree you plant creates a home for birds, absorbs carbon dioxide, and reduces global warming. Forests are our natural shield against storms and floods. The green canopy cools our cities and brings life to our rivers. TreeBridge works with farmers and students to plant thousands of saplings each year, turning barren lands into green havens. Protecting trees means protecting ourselves — every leaf counts, every seed matters. Let’s grow a forest in every heart."
+      },
+      {
+        "heading": "💧 Save Water Sources",
+        "image": "https://tse4.mm.bing.net/th/id/OIP.pskYs-rowcXdAKD21eQy3gHaE7?pid=Api&P=0&h=180",
+        "footer": "Water is life — every drop is precious.",
+        "content": "Water covers 71% of Earth, yet drinkable water is less than 1%. Lakes, rivers, and groundwater are disappearing due to pollution and overuse. TreeBridge encourages water harvesting, clean water drives, and awareness campaigns to restore our water bodies. Water scarcity isn’t just a rural issue — it’s a global crisis. By protecting rainwater, avoiding chemical waste, and maintaining natural streams, we ensure survival for humans, plants, and animals alike. Every single drop matters — from washing less to collecting rainwater, our habits can save billions of liters yearly. Remember, if we save water today, it saves us tomorrow."
+      },
+      {
+        "heading": "🌬️ Reduce Air Pollution",
+        "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1200&q=80",
+        "footer": "Clean air is a human right.",
+        "content": "Air pollution kills millions every year. The smog we breathe carries invisible poisons that damage lungs, hearts, and ecosystems. Vehicles, factories, and open burning release harmful gases that trap heat and destroy the ozone layer. TreeBridge educates communities on using bicycles, public transport, and clean fuels. Trees are our natural air purifiers, absorbing carbon dioxide and releasing oxygen. When we reduce air pollution, we give every child the right to breathe freely. It’s time to act — one breath at a time."
+      },
+      {
+        "heading": "🔇 Control Noise Pollution",
+        "image": "https://images.unsplash.com/photo-1503264116251-35a269479413?auto=format&fit=crop&w=1200&q=80",
+        "footer": "Silence is a form of peace — noise kills it.",
+        "content": "Noise pollution is often ignored, yet it affects mental health and wildlife deeply. Loudspeakers, vehicles, and urban construction disrupt sleep, stress the brain, and drive animals away from their habitats. Birds lose communication, animals flee their natural zones, and humans develop anxiety. TreeBridge promotes noise awareness by working with schools and communities to reduce unnecessary sound. Peace is not just silence — it’s harmony between humans and nature. Let’s create sound zones where calmness grows instead of chaos."
+      },
+      {
+        "heading": "🛡️ Protect Useful Persons",
+        "image": "https://richannel.org/wp-content/uploads/2021/06/humans-protecting-Environment.jpeg",
+        "footer": "The protectors of nature deserve our protection.",
+        "content": "Behind every tree planted and every awareness drive, there are people — farmers, environmentalists, and teachers — dedicating their lives to protect nature. They face challenges, lack support, and sometimes even risk their safety to protect the planet. TreeBridge supports these real-life heroes by connecting them to schools and organizations. Together, we spread their voice and mission so more people can learn to care for our planet. Protecting them means protecting hope — the hope of a green, peaceful Earth for all."
+      }
+    ]
+  }
+}

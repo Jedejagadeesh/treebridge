@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Nature/static/css/main.40b19788.css",
+    "main.js": "/Nature/static/js/main.1912b646.js",
+    "index.html": "/Nature/index.html",
+    "main.40b19788.css.map": "/Nature/static/css/main.40b19788.css.map",
+    "main.1912b646.js.map": "/Nature/static/js/main.1912b646.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.40b19788.css",
+    "static/js/main.1912b646.js"
+  ]
+}

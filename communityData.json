@@ -1,0 +1,48 @@
+{
+  "students": [
+    {
+      "images": [
+        "https://nickelasia.com/assets/site/DSC_0796.JPG",
+        "https://tse3.mm.bing.net/th/id/OIP.4My2b7z0uYlFGmzzbOiYpwHaE7?pid=Api&P=0&h=180",
+        "https://www.21kschool.com/za/wp-content/uploads/sites/23/2022/08/How-to-Cultivate-Environmental-Awareness-in-Schools-1.png"
+      ],
+      "text": "🌿 Students play a crucial role in protecting our environment. Don’t pollute nature; reduce waste, use reusable items, and educate friends about sustainability. Organize clean-up drives and plant trees at school and in your neighborhood. Maintain school gardens and protect local flora and fauna. Every small action counts toward a greener planet. How can you reduce waste at school today?"
+    },
+    {
+      "images": [
+        "https://www.thespruce.com/thmb/zNx9r71eMSNJRoCzYcHbDby16Qw=/1210x0/filters:no_upscale():max_bytes(150000):strip_icc()/environmental-volunteers-1022925352-b686578cbf714d19803f373a7f61513a.jpg",
+        "https://img.freepik.com/premium-photo/world-animal-day-world-wildlife-day-groups-wild-beasts-were-gathered-hands-people_34998-721.jpg?w=2000",
+        "https://tse2.mm.bing.net/th/id/OIP.UAOF9TOt7hNEN75O4Ml92gHaE8?pid=Api&P=0&h=180"
+      ],
+      "text": "💧 Water is life. Don’t pollute rivers or lakes. Promote awareness about water conservation. Encourage classmates to reduce plastic usage and maintain cleanliness. Celebrate eco-friendly events that promote sustainability. Can you organize a water-saving activity in your school?"
+    }
+  ],
+  "farmers": [
+    {
+      "images": [
+        "https://tse1.mm.bing.net/th/id/OIP.Lbg8hkZAAvZgT-6L_5LRmAHaHa?pid=Api&P=0&h=180",
+         "https://www.mdpi.com/life/life-12-00439/article_deploy/html/images/life-12-00439-g001.png",
+        "https://thumbs.dreamstime.com/z/aucun-pesticide-ne-signe-un-pulv%C3%A9risateur-stri%C3%A9-n-interdit-le-panneau-crois%C3%A9-sortie-buveuse-manuelle-du-jardin-ic%C3%B4ne-pour-la-257585334.jpg?w=576"
+      ],
+      "text": "🌾 Farmers protect the environment by using natural fertilizers and practicing crop rotation. Composting reduces waste and enriches soil naturally. Sustainable farming protects soil and water. Avoid overusing chemical fertilizers. Farmers educate communities about eco-friendly practices. How can farmers reduce pesticide use in your local area?"
+    },
+    {
+      "images": [
+        "https://tse1.mm.bing.net/th/id/OIP.F64-83D9hp-98NWKeNcWDgHaFj?pid=Api&P=0&h=180",
+        "https://gardening-abc.com/wp-content/uploads/2020/06/natural-pest-control.jpg",
+        "https://static.vecteezy.com/system/resources/previews/009/767/965/large_2x/rural-cow-dung-image-hd-photo.JPG"
+      ],
+      "text": "🌱 Planting trees around farms maintains biodiversity and improves soil health. Using natural pest control methods helps the ecosystem. Educate local villagers about sustainable farming practices. Every small step preserves nature and protects future generations. What trees can be planted near farms to help local wildlife?"
+    }
+  ],
+  "others": [
+    {
+      "images": [
+        "https://files.worldwildlife.org/wwfcmsprod/images/River_Clean_Up/story_full_width/nxvhl1k29_shutterstock_1470668927.jpg",
+        "https://www.green.earth/hs-fs/hubfs/030323_How%20to%20protect%20the%20oceans%20and%20marine%20life_Visual%201.png?width=1200&height=800&name=030323_How%20to%20protect%20the%20oceans%20and%20marine%20life_Visual%201.png",
+        "https://i.ytimg.com/vi/fwfVRGxyD14/maxresdefault.jpg"
+      ],
+      "text": "🤝 Volunteers, teachers, and local villagers organize clean-up drives and tree plantation events. They promote awareness campaigns and nature-friendly festivals. Protect rivers, soil, and forests in your community. Participate in eco-friendly activities to create lasting impact. How can you join volunteer activities to help your environment? Every small effort matters."
+    }
+  ]
+}
